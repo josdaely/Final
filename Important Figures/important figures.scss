@@ -1,0 +1,33 @@
+// @font-face {
+//   font-family: "Hitmarker";
+//   src: url("Fonts/HitmarkerNormal-Bold.ttf") format(".ttf");
+//   font-weight: normal;
+//   font-style: normal;
+//   font-display: swap;
+// } *Talk to Prof. Anderson
+
+body {
+  height: 100vh;
+  margin: 0;
+  background: black url('../Images/background.jpg');
+  color: white;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  height: 100vh;
+}
+
+.feature {
+
+  .feature-img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+  }
+}
+
+// re-size images to ensure they load/fit properly in container
